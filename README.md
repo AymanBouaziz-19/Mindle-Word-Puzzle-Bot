@@ -33,13 +33,14 @@ guess = get_best_candidate(word_list)
 feedback = evaluate_guess(guess, secret_word)
 word_list = eliminate_impossible_words(word_list, guess, feedback)
 
-> The bot uses elimination + letter frequency ranking to narrow down its guesses like a real player.```
+> The bot uses elimination + letter frequency ranking to narrow down its guesses like a real player
+```
 
 ---
 
 ## 🧩 File Structure
-
-```Mindle/
+```
+Mindle/
 ├── data/
 │   └── word_lists/           # Dictionaries for multiple languages
 ├── src/
@@ -51,16 +52,20 @@ word_list = eliminate_impossible_words(word_list, guess, feedback)
 │   └── utils.py              # Helpers and common functions
 ├── daily_mode.py             # Daily encrypted word challenge
 ├── requirements.txt
-└── README.md```
+└── README.md
+```
 
 ---
 
+
 ## 🧪 Sample Output
 
-```MINDLE - Smart Word Puzzle 🎯
+```
+MINDLE - Smart Word Puzzle 🎯
 Try #1:  SLATE →  ⬛ 🟨 🟩 ⬛ ⬛
 Try #2:  TRUCK →  ⬛ 🟩 ⬛ 🟩 ⬛
-Try #3:  TRACK →  🟩 🟩 🟩 🟩 🟩 🎉 Solved!```
+Try #3:  TRACK →  🟩 🟩 🟩 🟩 🟩 🎉 Solved!
+```
 
 
 ---
